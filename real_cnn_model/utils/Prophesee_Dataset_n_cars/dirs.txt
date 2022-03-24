@@ -1,0 +1,9 @@
+.
+./n-cars_train
+./n-cars_train/train
+./n-cars_train/train/cars
+./n-cars_train/train/background
+./n-cars_test
+./n-cars_test/test
+./n-cars_test/test/cars
+./n-cars_test/test/background
