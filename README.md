@@ -2,7 +2,7 @@
 Official PyTorch implementation of **Ev-TTA: Test-Time Adaptation for Event-Based Object Recognition (CVPR 2022)**
 [[Paper]](https://arxiv.org/abs/2203.12247)
 
-[<img src="ev.png" width="500"/>](evtta.png)
+[<img src="evtta.png" width="500"/>](evtta.png)
 
 In this repository, we provide instructions for running Ev-TTA on the N-ImageNet dataset.
 If you have any questions regarding the codebase, please leave an issue or contact 82magnolia@snu.ac.kr.
@@ -54,6 +54,7 @@ cd real_cnn_model/scripts
 
 To run Ev-TTA on a single event representation, run the following command (this is for running on the Timestamp Image).
 ```
+cd real_cnn_model/scripts
 ./run_ev_tta.sh reshape_then_acc_time_pol ./experiments/pretrained/2_time_surface/best.tar
 ```
 
