@@ -62,14 +62,12 @@ cd real_cnn_model/scripts
 If you find the dataset or codebase useful, please cite
 
 ```
-@misc{https://doi.org/10.48550/arxiv.2203.12247,
-  doi = {10.48550/ARXIV.2203.12247},
-  url = {https://arxiv.org/abs/2203.12247},
-  author = {Kim, Junho and Hwang, Inwoo and Kim, Young Min},
-  keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  title = {Ev-TTA: Test-Time Adaptation for Event-Based Object Recognition},
-  publisher = {arXiv},
-  year = {2022},
-  copyright = {Creative Commons Attribution 4.0 International}
+@InProceedings{Kim_2022_CVPR,
+    author    = {Kim, Junho and Hwang, Inwoo and Kim, Young Min},
+    title     = {Ev-TTA: Test-Time Adaptation for Event-Based Object Recognition},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {17745-17754}
 }
 ```
